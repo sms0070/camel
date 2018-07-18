@@ -174,9 +174,9 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
+          <groupId>com.github.zregvart.maven-plugin-tools</groupId>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>3.3</version>
+          <version>MPLUGIN-336-SNAPSHOT</version>
           <configuration>
             <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
             <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
