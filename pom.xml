@@ -125,6 +125,19 @@
         <enabled>false</enabled>
       </releases>
     </repository>
+    <!-- for Java 11 support we need Spring milestone releases,
+         to be removed when released -->
+    <repository>
+      <id>spring.milestone</id>
+      <url>https://repo.spring.io/milestone/</url>
+      <name>Spring Milestone repository</name>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -154,6 +167,17 @@
       <id>bintray</id>
       <url>https://dl.bintray.com/groovy/maven</url>
       <name>Bintray Repository</name>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+    <pluginRepository>
+      <id>spring.milestone</id>
+      <url>https://repo.spring.io/milestone/</url>
+      <name>Spring Milestone repository</name>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
