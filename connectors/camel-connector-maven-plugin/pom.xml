@@ -97,6 +97,13 @@
       <version>${google-guava-version}</version>
     </dependency>
 
+    <!-- enable the APT processor -->
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>${annotation-api-version}</version>
+    </dependency>
+
     <!-- logging -->
     <dependency>
       <groupId>org.slf4j</groupId>

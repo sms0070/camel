@@ -55,6 +55,11 @@
       <artifactId>undertow-core</artifactId>
       <version>${undertow-version}</version>
     </dependency>
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>${annotation-api-version}</version>
+    </dependency>
 
     <!-- testing -->
     <dependency>

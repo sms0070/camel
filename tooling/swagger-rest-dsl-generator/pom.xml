@@ -47,6 +47,11 @@
       <artifactId>swagger-parser</artifactId>
       <version>${swagger-java-parser-version}</version>
     </dependency>
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>${annotation-api-version}</version>
+    </dependency>
 
     <!-- test -->
     <dependency>
